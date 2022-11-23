@@ -49,29 +49,143 @@
     justify-content: center;
     gap: 29px;
     height: calc(65vh, 60px);
+    padding-top: 45px;
 }
 
 .hero_section_logo {
-    width: 250px;
+    width: 300px;
     height: auto;
 }
 
-@media only screen and (max-width:500px){
+.hero_section_containertitle {
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+}
 
-.navbar_usericon {
+.hero_section_containerinput {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 14px;
+    width: 56%;
+    gap: 10px;
+    border-radius: 8px;
 }
 
-.link {
-    display: none;
+.input_container_location,
+.input_container_search {
+    border: none;
+    outline: none;
 }
 
-.hero_section {
-    min-height: 80vh;
+.input_container_location {
+    width: 35%;
+    border-right: 2px solid rgb(192, 191, 191);
 }
 
-.navbar {
-    padding: 16px;
+.input_container_search {
+    width: 65%;
 }
+
+/* .input_container_location_icon {
+    color: red;
+} */
+
+.section_services_offered {
+    margin: 2.5rem auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.services_offered {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgb(226, 226, 226);
+    width: 29%;
+    transition: all 0.32s ease;
+}
+
+.services_offered img {
+    display: flex;
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
+}
+
+.services {
+    padding: 17px;
+}
+
+.services h2 {
+    color: rgb(37, 37, 37);
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.services p {
+    font-weight: normal;
+    color: rgb(70, 70, 70);
+}
+
+.services_offered:hover {
+transform: scale(1.05);
+cursor: pointer;
+}
+
+
+
+
+
+@media only screen and (max-width:500px) {
+
+    .navbar_usericon {
+        display: flex;
+    }
+
+    .link {
+        display: none;
+    }
+
+    .hero_section {
+        min-height: 50vh;
+    }
+
+    .navbar {
+        padding: 16px;
+    }
+
+    .hero_section_containerinput {
+        flex-direction: column;
+        background-color: transparent;
+        width: 95%;
+        height: 130px;
+    }
+
+    .input_container_location,
+    .input_container_search {
+        padding: 15px;
+        border-radius: 10px;
+        width: 95%;
+    }
+
+    .hero_section_containertitle {
+        width: 95%;
+        font-size: 20px;
+    }
+
+    .section_services_offered {
+        flex-direction: column;
+    }
+
+    .services_offered {
+        width: 8%;
+    }
 
 }
