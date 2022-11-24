@@ -135,10 +135,110 @@
 }
 
 .services_offered:hover {
-transform: scale(1.05);
-cursor: pointer;
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
+.section_cards_para {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 9.45%;
+    margin-right: 9.45%;
+}
+
+.section_cards_para div p {
+    font-size: 17.25px;
+    font-weight: normal;
+    color: rgb(41, 41, 41);
+}
+
+.section_cards_para span {
+    /* font-size: 15px; */
+    color: #ff7e8b;
+    font-weight: 325;
+    cursor: pointer;
+}
+
+.section_cards_heading {
+    margin-left: 9.45%;
+}
+
+.section_cards_heading h2 {
+    font-size: 34px;
+    font-weight: normal;
+}
+
+.section_cards_cards {
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    margin-left: 9.45%;
+    margin-right: 9.45%;
+}
+
+.section_cards_cards .card {
+    height: 320px;
+    min-width: 265px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.8) 0%,
+            rgba(0, 0, 0, 0.05) 50%,
+            rgba(0, 0, 0, 0.05) 85%);
+
+}
+
+.section_cards_cards .card .cards_content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 6px 16px;
+    color: white;
+    /* font-size: 0.8rem; */
+    /* font-weight: lighter; */
+}
+
+.section_cards_cards .card .cards_content h4 {
+    font-weight: 350;
+    font-size: 17px;
+}
+
+.section_cards_cards .card .cards_content span {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.card1 {
+    background: url(/images/collection1.jpg);
+}
+
+.card2 {
+    background: url(/images/collection2.jpg);
+}
+
+.card3 {
+    background: url(/images/collection3.jpg);
+}
+
+.card4 {
+    background: url(/images/collection4.jpg);
+}
 
 
 

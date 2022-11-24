@@ -3,3 +3,4 @@
 >Day_1 pushed
 >Created a new ServicesOffered branch
 >Day_2 pushed
+>Created new branch SectionCards
