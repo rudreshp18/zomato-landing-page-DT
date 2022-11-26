@@ -4,3 +4,5 @@
 >Created a new ServicesOffered branch
 >Day_2 pushed
 >Created new branch SectionCards
+>Created new branch section footer
+>Prefinal pushed(Need Responsiveness in getapp section)
