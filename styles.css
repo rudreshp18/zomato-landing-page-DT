@@ -82,16 +82,28 @@
 
 .input_container_location {
     width: 35%;
-    border-right: 2px solid rgb(192, 191, 191);
+    
 }
 
 .input_container_search {
     width: 65%;
+    /* border-left: 2px solid rgb(192, 191, 191); */
+    padding-left: 9px;
 }
 
-/* .input_container_location_icon {
-    color: red;
-} */
+.input_container_location_icon {
+    color: rgb(231, 79, 79);
+}
+
+.input_container_search_icon {
+    color: rgb(58, 58, 58)!important;
+}
+
+.header_section_dropdown {
+    color: rgb(0, 0, 0);
+    border-right: 2px solid rgb(192, 191, 191);
+    padding-right: 6px;
+}
 
 .section_services_offered {
     margin: 2.5rem auto;
