@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- zomato logo in the tab -->
+    <link rel="icon" type="image/x-icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Zomato_logo.png/220px-Zomato_logo.png" />
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- poppins font by google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+
+    <!-- importing styles.css -->
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+
+    <title>Zomato Clone</title>
+</head>
+
+<body>
+    <section class="hero_section">
+        <header>
+            <nav class="navbar">
+                <a href="#" class="link">Get the App</a>
+                <div class="navbar_rightcontainer">
+                    <a href="#" class="link">Investor Relations</a>
+                    <a href="#" class="link">Add Restaurant</a>
+                    <a href="#" class="link">Log in</a>
+                    <a href="#" class="link">Sign up</a>
+                    <a href="#" class="navbar_usericon"><i class="fa-solid fa-user"></i></a>
+                </div>
+            </nav>
+        </header>
+
+        <div class="hero_section_container">
+            <img class="hero_section_logo" src="/images/heroSectionLogo.png" alt="Zomato Logo" />
+            <h1 class="hero_section_containertitle">Discover the best food & drinks in Bengaluru</h1>
+            <div class="hero_section_containerinput">
+                <a href="#" class="input_container_location_icon"><i class="fa-solid fa-location-dot"></i></a>
+                <input type="text" placeholder="Bengaluru" class="input_container_location" />
+                <a href="#" class="header_section_dropdown"><i class="fa-solid fa-caret-down"></i></a>
+                <a href="#" class="input_container_search_icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <input type="text" placeholder="Search for restaurant, cuisine or a dish"
+                    class="input_container_search" />
+                    
+            </div>
+    </section>
+
+    <section class="section_services_offered">
+        <div class="services_offered">
+            <img src="/images/item1.png" alt="ServiceOne" />
+            <div class="services">
+                <h2>Order Online</h2>
+                <p>Stay home and order to your doorstep</p>
+            </div>
+        </div>
+        <div class="services_offered">
+            <img src="/images/item2.png" alt="ServiceTwo" />
+            <div class="services">
+                <h2>Dining</h2>
+                <p>View the city's favourite dining venues</p>
+            </div>
+        </div>
+        <div class="services_offered">
+            <img src="/images/item3.png" alt="ServiceThree" />
+            <div class="services">
+                <h2>Nightlife and Clubs</h2>
+                <p>Explore the city's top nightlife outlets</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_cards">
+        <div class="section_cards_heading">
+            <h2>Collections</h2>
+        </div>
+        <div class="section_cards_para">
+            <div>
+                <p>Explore curated lists of top restaurants, cafes, pubs and bars in Bengaluru, based on trends</p>
+            </div>
+            <span>All collections in Bengaluru</span>
+        </div>
+        <div class="section_cards_cards">
+            <div class="card card1">
+                <div class="overlay"></div>
+                <div class="cards_content">
+                    <h4>Thanksgiving</h4>
+                    <span>9 Places</span>
+                </div>
+            </div>
+            <div class="card card2">
+                <div class="overlay"></div>
+                <div class="cards_content">
+                    <h4>New in Town</h4>
+                    <span>8 Places</span>
+                </div>
+            </div>
+            <div class="card card3">
+                <div class="overlay"></div>
+                <div class="cards_content">
+                    <h4>Romantic Dining</h4>
+                    <span>11 Places</span>
+                </div>
+            </div>
+            <div class="card card4">
+                <div class="overlay"></div>
+                <div class="cards_content">
+                    <h4>Best Microbreweries</h4>
+                    <span>20 Places</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_getapp">
+
+        <div class="section_getapp_sub">
+
+            <div class="getapp_left">
+                <img src="/images/mobileBanner.png" alt="Mobile banner" />
+            </div>
+
+            <div class="getapp_right">
+                <h2>Get the Zomato app</h2>
+                <p>We will send you a link, open it on your phone to download the app</p>
+
+                <div class="getapp_right_radio">
+                    <div>
+                        <input type="radio" id="email" name="download_app" />
+                        <label for="email">Email</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="phone" name="download_app" />
+                        <label for="phone">Phone</label>
+                    </div>
+                </div>
+
+                <div class="getapp_right_input">
+                    <input type="text" placeholder="Email" />
+                    <button>Share App Link</button>
+                </div>
+
+                <div class="getapp_right_from">
+                    <p>Download app from</p>
+                    <div>
+                        <img src="/images/playStore.png" alt="Play Store" />
+                        <img src="/images/appleStore.png" alt="App Store" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="section_footer">
+        <div class="section_footer_sub">
+            <div class="footer_topsection">
+                <img src="/images/logo.png" alt="Zomato Logo" />
+                <div class="topsection_button">
+                    <button><img src="https://flagcdn.com/w40/in.png" alt="Indian flag"
+                            style="width: 17px;" />India</button>
+                    <button><i class="fa fa-globe"></i>English</button>
+                </div>
+            </div>
+            <div class="footer_linksection">
+                <div class="footer_linkheader">
+                    <h5>ABOUT ZOMATO</h5>
+                    <a href="#" class="footer_links">Who We Are</a>
+                    <a href="#" class="footer_links">Blog</a>
+                    <a href="#" class="footer_links">Work With Us</a>
+                    <a href="#" class="footer_links">Investor Relations</a>
+                    <a href="#" class="footer_links">Report Fraud</a>
+                    <a href="#" class="footer_links">Contact Us</a>
+                </div>
+
+                <div class="footer_linkheader">
+                    <h5>ZOMAVERSE</h5>
+                    <a href="#" class="footer_links">Zomato</a>
+                    <a href="#" class="footer_links">Blinkit</a>
+                    <a href="#" class="footer_links">Feeding India</a>
+                    <a href="#" class="footer_links">Hyperpure</a>
+                    <a href="#" class="footer_links">Zomaland</a>
+                </div>
+
+                <div class="footer_linkheader">
+                    <h5>FOR RESTAURANTS</h5>
+                    <a href="#" class="footer_links">Partner With Us</a>
+                    <a href="#" class="footer_links">Apps For You</a>
+                    <br />
+                    <br />
+                    <h5>FOR ENTERPRISES</h5>
+                    <a href="#" class="footer_links">Zomato For Work</a>
+                </div>
+
+                <div class="footer_linkheader">
+                    <h5>LEARN MORE</h5>
+                    <a href="#" class="footer_links">Privacy</a>
+                    <a href="#" class="footer_links">Security</a>
+                    <a href="#" class="footer_links">Terms</a>
+                    <a href="#" class="footer_links">Sitemap</a>
+                </div>
+
+                <div class="footer_linkheader">
+                    <h5>SOCIAL LINKS</h5>
+                    <div class="social_medias">
+                        <button><i class="fa-brands fa-linkedin-in"></i></button>
+                        <button><i class="fa-brands fa-instagram"></i></button>
+                        <button><i class="fa-brands fa-twitter"></i></button>
+                        <button><i class="fa-brands fa-youtube"></i></button>
+                        <button><i class="fa-brands fa-facebook"></i></button>
+                    </div>
+                    <br />
+                    <div>
+                        <img src="/images/playStore.png" alt="Play Store" />
+                        <img src="/images/appleStore.png" alt="Apple Store" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_bottom">
+                <p>By continuing past this page, you agree to our Terms of Service,
+                    Cookie Policy, Privacy Policy and Content Policies. All trademarks
+                    are properties of their respective owners. 2008-2022 © Zomato™ Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
